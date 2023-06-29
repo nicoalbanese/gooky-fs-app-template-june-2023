@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    //"target": "es5",
+    "target": "esnext", // switch to this when running drizzle migrations
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
