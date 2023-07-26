@@ -12,6 +12,6 @@ declare module "next-auth" {
       id: Number;
       /** The user's name. */
       name: String | null;
-    } & DefaultSession["user"];
+    }; // & DefaultSession["user"];
   }
 }
