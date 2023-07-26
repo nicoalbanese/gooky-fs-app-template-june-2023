@@ -2,7 +2,7 @@ import { authOptions } from "@/app/api/auth/[...nextauth]/route";
 import { getServerSession } from "next-auth";
 import bcrypt from "bcrypt";
 
-export const useServerSession = async () => {
+export const getUserAuth = async () => {
   const session = await getServerSession(authOptions);
   return { session };
 };
