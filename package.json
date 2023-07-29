@@ -24,6 +24,7 @@
     "class-variance-authority": "^0.6.1",
     "clsx": "^1.2.1",
     "drizzle-orm": "^0.27.0",
+    "drizzle-zod": "^0.4.4",
     "eslint": "8.43.0",
     "eslint-config-next": "13.4.7",
     "lucide-react": "^0.256.0",
